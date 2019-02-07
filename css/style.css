@@ -560,3 +560,23 @@ p {
     border:1px solid #129cf3;
     color: #fff;
 }
+/* ===== footer ==== */
+.footer {
+    background: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    border-bottom: 3px solid #129cf3;
+}
+#copyright {
+    width: 50%;
+}
+#copyright p {
+    color: #8c8b8a;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#copyright p a {
+    text-decoration: none;
+    color: #129cf3;
+}
