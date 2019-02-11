@@ -44,6 +44,44 @@ p {
     text-align: center;
     margin-top: 45px;
 }
+/* ======== Navigation Bar ======== */
+.navbar-light {
+    border-bottom: 1px solid #444;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #b5b5b5;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #129cf3 !important;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img {
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active>a,
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background: #000;
+}
+
+
 
 /* ======== Header ======== */
 
