@@ -40,3 +40,12 @@ $(document).ready(function() {
         slideMargin: 50
     });
 });
+
+//add counter
+
+$(document).ready(function() {
+    $('.counter-num').counterUp({    //counter-num, the class you define
+        delay: 10,
+        time: 2000
+    });
+})
