@@ -42,10 +42,16 @@ $(document).ready(function() {
 });
 
 //add counter
-
 $(document).ready(function() {
     $('.counter-num').counterUp({    //counter-num, the class you define
         delay: 10,
         time: 2000
     });
-})
+});
+// add animation 
+$(document).ready(function() {
+    'use strict'
+
+    new WOW().init();
+});
+
