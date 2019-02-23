@@ -123,13 +123,17 @@ p {
     margin-bottom: 50px;
 }
 
+.btn-download {
+    border: 1px solid #129cf3 !important;
+    color: #129cf3 !important;
+}
 .btn-download,
 .btn-download:focus,
 .btn-download:active,
 .btn-download:visited 
 {
+
     background: transparent;
-    color: #129cf3;
     border-color: #129cf3;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -144,7 +148,7 @@ p {
     -o-transition: all 1s; 
 }
 .btn-download:hover {
-    background-color: #129cf3;
+    background-color: #434f57;
     color: #fff;
 }
 .btn-tour,
